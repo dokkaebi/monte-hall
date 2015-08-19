@@ -1,0 +1,19 @@
+
+Monte Hall problem simulation.
+
+Usage:
+
+Run an interpreter and import monte_hall.py:
+
+ $ python -i monte_hall.py
+
+Initialize a simulation. It accepts (number-of-runs, strategy, guess) as parameters. Guess is
+randomized by default. Strategy options are Simulation.KEEP and Simulation.SWITCH.
+
+ >>> s = Simulation(1000, Simulation.KEEP)
+
+Run the simulation. Output is (number-of-runs, number-correct).
+
+ >>> s.run()
+ (1000, 334)
+
