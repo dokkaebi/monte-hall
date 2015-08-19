@@ -1,11 +1,11 @@
 
-Monte Hall problem simulation.
+Monty Hall problem simulation.
 
 Usage:
 
-Run an interpreter and import monte_hall.py:
+Run an interpreter and import monty_hall.py:
 
- $ python -i monte_hall.py
+ $ python -i monty_hall.py
 
 Initialize a simulation. It accepts (number-of-runs, strategy, guess) as parameters. Guess is
 randomized by default. Strategy options are Simulation.KEEP and Simulation.SWITCH.
